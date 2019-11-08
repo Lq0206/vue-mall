@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1498273_z2oc98qcwaq.css">
+  <title>vue-koa2-mall</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script>
+    window.onresize = function () {
+      // 获取viewport宽度
+      let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth
+      // 获取html的DOM元素
+      let htmlDom = document.getElementsByTagName('html')[0]
+      if (htmlWidth > 750) htmlWidth = 750
+      htmlDom.style.fontSize = htmlWidth / 20 + 'px'
+    }
+  </script>
+</body>
+
+</html>

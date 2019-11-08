@@ -1,0 +1,46 @@
+body {
+  color: #333;
+  font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.primary-color{
+  color: #ff0036;
+}
+.default-color {
+  color: #333;
+}
+.primary-bg {
+  background-color: #ff0036;
+}
+// 清除浮动
+.clearfix {
+  clear: both;
+}
+.clearfix::before {
+  content: '';
+  display: table;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.app_header {
+  color: #fff;
+}
+
+.icon-prefix {
+  position: absolute;
+  z-index: 1;
+}
+.icon-suffix {
+  position: absolute;
+  z-index: 1;
+}
+
+.banner-img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
